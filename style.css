@@ -1,0 +1,92 @@
+body {
+  font-family: "Space Mono", monospace;
+  color: #101010;
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 2rem;
+  max-width: 500px;
+}
+.blinking-cursor {
+  font-weight: 900;
+  font-style: italic;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+.logo {
+  width: 2rem;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.no-link {
+  text-decoration: none;
+  color: inherit;
+}
+.contact {
+  display: flex;
+  gap: 3rem;
+}
+.link:hover {
+  background-color: #0000004f;
+  color: white;
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
