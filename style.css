@@ -8,7 +8,7 @@ main {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin: 2rem;
+  margin: 2rem 1rem 2rem 2rem;
   max-width: 500px;
 }
 .blinking-cursor {
@@ -27,6 +27,14 @@ main {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.header img {
+  max-width: 100px;
+  max-height: 100px;
 }
 .no-link {
   text-decoration: none;
